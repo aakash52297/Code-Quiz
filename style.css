@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+.highscore {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+.timer {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+.start {
+    text-align: center;
+}
+button {
+    display: inline-block;
+    margin: 7px;
+    cursor: pointer;
+    font-size: 100%;
+    padding: 2px 12px;
+    color: blue;
+    background-color:burlywood;
+    border: 0;
+    transition:background color 0.1s;
+}
+button:hover{
+    background-color: burlywood;
+}
+.hide {
+    display: none;
+}
+.answers button {
+    display: block;
+}
+.feedback{
+    font-style: italic;
+    font-size: 120%;
+    margin-top: 30px;
+    padding-top: 10px;
+    color: chartreuse;
+    border-top: 3px solid cornflowerblue;
+}

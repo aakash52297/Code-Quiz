@@ -1,0 +1,45 @@
+<!DOCTYPE html>  
+<html>
+ <head>
+    <title>Code Quiz</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+ </head>
+ <body>
+     <header>
+         <div class="highscore">
+             <a href="highscorehtml">high scores</a>
+         </div>
+         <div class="timer">
+             remaining time: <span id="time">0</span>
+         </div>
+        <h1>Java Scipt Quiz</h1>
+     </header>
+    <div id="start-page" class="start">
+        <p>Take this quiz, but make sure to pay attention to the timer. Any wrong answer will be penalized. Please 
+            try to finish the quiz with the time given.
+        </p>
+        <button id="start-button">Start Quiz</button>
+    </div>
+    
+    <div id="questions" class="hide">
+        <h2 id="current-question"></h2>
+        <div id="answer-choices" class="answers">
+        </div>
+    </div>
+    
+    <div id="quiz-end" class="hide">
+        <h2>Quiz Finished</h2>
+        <p>Final Score : <span id="final-score"></span>
+        </p>
+        <p>Enter Initials: <input type="text" id="initials">
+        </p>
+        <button id="submit">submit</button>
+    </div>
+    <div id="feedback" class="feedback hide">
+    </div>
+    <script src="script.js"></script>
+     
+ </body>
+</html>
